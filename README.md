@@ -10,9 +10,9 @@ Pythonジェネレーターと生成されるHTML辞書のためのドキュメ�
 
 ### **Python Generator Script (Pythonジェネレーター・スクリプト)**
 
-The core of this project is a robust Python script named `generate\_cjk\_full.py`. Its sole purpose is to fetch raw data and transform it into a usable format.
+The core of this project is a robust Python script named `generate_cjk_full.py`. Its sole purpose is to fetch raw data and transform it into a usable format.
 
-このプロジェクトの核となるのは、`generate\_cjk\_full.py` という堅牢なPythonスクリプトです。その目的は、生データを取得し、使用可能な形式に変換することです。
+このプロジェクトの核となるのは、`generate_cjk_full.py` という堅牢なPythonスクリプトです。その目的は、生データを取得し、使用可能な形式に変換することです。
 
 #### **🔧 Functionality / 機能**
 
@@ -29,7 +29,7 @@ No external libraries are required. Simply run the script with Python 3\.
 
 外部ライブラリは不要です。Python 3でスクリプトを実行するだけです。
 
-python `generate\_cjk\_full.py`
+python `generate_cjk_full.py`
 
 **Terminal Output Example:**
 ```bash
@@ -57,9 +57,9 @@ Finished! Open 'cjk_full_busyu_ja_en.html' to see the result.
 
 ### **The Generated Dictionary (生成された辞書ファイル \- HTML)**
 
-Upon successful execution, the script generates a standalone file named `cjk\_full\_busyu\_ja\_en.html`. This is the final product.
+Upon successful execution, the script generates a standalone file named `cjk_full_busyu_ja_en.html`. This is the final product.
 
-実行が成功すると、スクリプトは`cjk\_full\_busyu\_ja\_en.html`というスタンドアロンファイルを生成します。これが最終成果物です。
+実行が成功すると、スクリプトは`cjk_full_busyu_ja_en.html`というスタンドアロンファイルを生成します。これが最終成果物です。
 
 #### **📄 Interface Features / インターフェースの特徴**
 
@@ -67,7 +67,7 @@ Upon successful execution, the script generates a standalone file named `cjk\_fu
   **サイドバーナビゲーション:** 左側の固定サイドバーには、全214の康熙部首がリストアップされており、素早くジャンプできます。  
 * **Radical Sections:** The main view is divided into clear sections for each radical, displaying the radical number and character (e.g., R1 一).  
   **部首セクション:** メインビューは部首ごとに明確に区分され、部首番号と文字（例：R1 一）が表示されます。  
-* **Stroke Grouping:** Within each radical, characters are grouped by their additional stroke count (e.g., \+0 Strokes, \+1 Stroke).  
+* **Stroke Grouping:** Within each radical, characters are grouped by their additional stroke count (e.g., +0 Strokes, +1 Stroke).  
   **画数グルーピング:** 各部首内で、文字は追加画数ごとにグループ化されます（例：+0画、+1画）。  
 * **Extensions Included:** Unlike standard web fonts, this dictionary allows browsing of Extensions A, B, C, D, E, F, G, H, I, and J seamlessly.  
   **全拡張対応:** 標準的なWebフォントとは異なり、この辞書では拡張A〜Jまでの文字をシームレスに閲覧できます。
