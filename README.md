@@ -33,13 +33,24 @@ python `generate\_cjk\_full.py`
 
 **Terminal Output Example:**
 ```bash
-1\. Downloading \[https://www.unicode.org/\](https://www.unicode.org/)...  
-2\. Scanning ALL files in ZIP...  
-   \-\> Inspecting: Unihan\_RadicalStrokeCounts.txt  
-      SUCCESS\! 100000+ entries found.  
-3\. Sorting data...  
-4\. Generating cjk\_full\_busyu\_ja\_en.html...  
-Finished\!
+1. Downloading https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip...
+   Download complete (8.12 MB).
+2. Scanning ALL files in ZIP...
+   8 files found in archive.
+   -> Inspecting: Unihan_DictionaryIndices.txt
+   -> Inspecting: Unihan_DictionaryLikeData.txt
+   -> Inspecting: Unihan_IRGSources.txt
+      SUCCESS! 102998 entries found in Unihan_IRGSources.txt.
+   -> Inspecting: Unihan_NumericValues.txt
+   -> Inspecting: Unihan_OtherMappings.txt
+   -> Inspecting: Unihan_RadicalStrokeCounts.txt
+   -> Inspecting: Unihan_Readings.txt
+   -> Inspecting: Unihan_Variants.txt
+   TOTAL: 102944 characters extracted.
+3. Sorting data...
+4. Generating cjk_full_busyu_ja_en.html...
+Finished! Open 'cjk_full_busyu_ja_en.html' to see the result.
+
 ```
 
 ## **Part 2: The Output**
