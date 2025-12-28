@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="img/CJK_logo.png" width="500" />
+</p>
+
 # **CJK Unified Ideographs Dictionary**
 
 ### **全訳CJK統合漢字辞典プロジェクト**
