@@ -78,4 +78,4 @@ The HTML interface is fully bilingual. All headers, labels, and descriptions are
 
 HTMLインターフェースは完全なバイリンガル対応です。すべての見出し、ラベル、説明文は英語と日本語の両方で提供されます。
 
-**Project maintained by \[Your Name\] / プロジェクト管理者: \[あなたの名前\]** *Data Source: The Unicode Consortium*
+**Project maintained by PINKARA / プロジェクト管理者: PINKARA** *Data Source: The Unicode Consortium*
